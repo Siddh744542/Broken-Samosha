@@ -13,7 +13,7 @@ const MenuItems = () => {
         <p className="text-gray-500 text-sm" >
         A crispy delight with a flavorful filling, offering the perfect blend of crunch and spice.
         </p>
-        <button className="bg-primary text-white rounded-full px-8 py-2 mt-4">
+        <button className="bg-primary border-0 text-white rounded-full px-8 py-2 mt-4">
             Add to Cart ₹10
         </button>
     </div>
