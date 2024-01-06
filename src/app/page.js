@@ -3,6 +3,10 @@ import Hero from "../components/layout/Hero"
 import HomeMenu from "../components/layout/HomeMenu";
 import SectionHeader from "../components/layout/SectionHeader";
 
+export const metadata = {
+  title: "Broken Samosha",
+  description: "Broken Samosha invites you to savor the spiced-up journey - where crunchy tale meet rich Indian Flavours",
+}
 export default function Home() {
   return (
    <>
