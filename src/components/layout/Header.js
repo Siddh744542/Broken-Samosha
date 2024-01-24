@@ -3,10 +3,8 @@ import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 const Header = () => {
   const session = useSession();
-  console.log(session);
   const status = session.status;
   const userData = session.data?.user;
-  console.log(userData);
   let userName = userData?.name || userData?.email;
   if(userName?.includes(" ")){
     userName = userName.split(" ")[0];
@@ -44,8 +42,6 @@ const Header = () => {
             </Link>
           </>
         )}
-        
-        
       </nav>
     </header>
   )
